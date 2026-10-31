@@ -213,6 +213,8 @@ The feature suite covers public pages, staff pages, booking overlap/adjacency, r
 
 ## Project layout
 
+Guidance for coding agents is in [AGENTS.md](AGENTS.md), covering architecture, business rules, database setup, UI conventions, and verification.
+
 - `app/Domain/Stay.php`: date, monetary quote and transition rules independent of Laravel.
 - `app/Services/BookingService.php`: inventory allocation, stay lifecycle and audit records.
 - `app/Http/Controllers`: public booking, staff operations and session authentication.

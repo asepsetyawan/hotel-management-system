@@ -4,7 +4,7 @@
 
 Stay OS is a Laravel 13 modular monolith. The public website and staff workspace share server-side availability and booking services. Blade renders the screens, standard Laravel sessions authenticate staff, and CSRF protection covers mutations. No separate SPA, JWT system or duplicated frontend pricing logic is required.
 
-The current build uses a default SQLite database for easy development. Move to PostgreSQL for production, with normal database migrations and no Docker requirement for PHP. If desired, run only PostgreSQL in a development container and set `DB_CONNECTION=pgsql` with the usual host/database credentials.
+Local development uses PostgreSQL 17 in the Docker Compose service defined in `compose.yaml`. PHP/Laravel runs on the host and connects through `127.0.0.1:5433`; application data persists in the `postgres_data` volume. The default feature-test configuration uses in-memory SQLite, while `phpunit.pgsql.xml` targets a separate `stayos_testing` database. See README for setup and commands. Agent guidance is maintained in the root `AGENTS.md`.
 
 Room-night allocation is the central inventory constraint. The application takes a row lock on the room and reserves each night inside a transaction. The unique nightly constraint prevents duplicate allocations even if another writer bypasses the service. Payment recording separately locks the reservation and uses unique receipt idempotency keys. The framework feature tests are single-process correctness tests; a production rollout also needs concurrent requests against its target database.
 
@@ -28,7 +28,7 @@ Staff pages return private no-store responses. CSV exports omit guest contact da
 
 ## Next implementation stages
 
-1. Resolve dependency installation, boot the application, run all feature tests, cache Blade views and inspect desktop/mobile flows in a browser. Add targeted fixes before accepting the first release. Record the dependency lockfile.
+1. Keep the installed dependencies, lockfile, feature tests, and desktop/mobile checks reproducible. PostgreSQL Docker setup, case-insensitive marketplace search, date/group availability filtering, and distinct generated images for all ten demo hotels are implemented. Concurrent booking verification on PostgreSQL remains open.
 2. Complete account lifecycle: staff listing/edit/deactivation, property assignment changes, password reset and email verification. Add owner/manager authorization policies with explicit policy tests as resource scope grows.
 3. Complete hotel operations: reservation edits and room moves with atomic reallocation; guest counts and room-type pricing; seasonal/date-specific rates; cancellation and refund accounting; no-shows, early checkout settlement, night audit and configurable check-in/out times. Current early checkout retains its original invoice total.
 4. Add property photo upload/validation, hotel content pages, booking terms, transactional email, and configurable brand assets. Decorative illustrations should be replaced by actual licensed hotel photography.
@@ -43,9 +43,9 @@ Staff pages return private no-store responses. CSV exports omit guest contact da
 - JavaScript syntax check: passed.
 - 22 standalone domain checks: passed.
 - Composer dependencies: installed locally (Laravel 13.39.0; PHP 8.5.8).
-- Laravel suite: 25 tests passed, 81 assertions, including rollback and retry after a simulated demo-seed failure.
+- Laravel suite: 33 tests passed, 135 assertions on SQLite and the separate PostgreSQL test database, including marketplace availability filtering and demo-seed rollback/retry.
 - Route discovery and Blade compilation: passed.
-- Browser runtime checks: marketplace, hotel page, reservation dialog, booking confirmation, staff sign-in and dashboard passed. One fictional `Local Browser Test` reservation remains in the local demo database.
+- Browser runtime checks covered marketplace, hotel page, reservation dialog, booking confirmation, staff sign-in and dashboard. Later marketplace checks covered date/guest/room controls, empty results, case-insensitive city search, mobile overflow, and distinct images for ten demo hotels. Local record counts change as the application is exercised; seeding is additive for missing demo hotel slugs.
 - Startup fixes: property defaults are available immediately after creation; demo seeding is transactional. The incomplete database created by the first failed startup was preserved under `.runtime/failed-first-start/` before initializing the working demo database.
 
 No deployment has been made. Sites hosting uses a JavaScript Worker runtime and cannot host this PHP application directly. A PHP-capable host, VPS or Laravel-compatible platform is required.
