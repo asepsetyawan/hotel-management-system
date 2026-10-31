@@ -14,9 +14,9 @@ Staff workspace at `/app`, showing arrivals, room availability, housekeeping rea
 
 ### Marketplace
 
-Hotel marketplace at `/`, with destination search and published property listings.
+Hotel marketplace at `/`, with destination search and AI-generated photorealistic images for the demonstration properties.
 
-![Stay OS hotel marketplace with destination search and two demonstration property listings](docs/screenshots/marketplace.jpg)
+![Stay OS marketplace with photorealistic Ubud pool and Bandung courtyard images, destination search, and two demonstration property listings](docs/screenshots/marketplace.jpg)
 
 ### Product home
 
@@ -65,7 +65,7 @@ Local demo users all use your `DEMO_ADMIN_PASSWORD`:
 | `desk@stayos.test` | Front desk, assigned to both demo properties |
 | `housekeeping@stayos.test` | Housekeeping, assigned only to The Aluna Ubud |
 
-Seed data includes two fictional properties, 36 rooms, sample stays and manual receipts. The SVG illustrations are decorative artwork, not property photographs. Contact details and guest records are fictional. Seeding is limited to local/testing and skips an existing property database.
+Seed data includes two fictional properties, 36 rooms, sample stays and manual receipts. Marketplace and hotel booking images are AI-generated photorealistic demonstration scenes, not photographs of actual properties. Generation prompts and asset details are in `docs/marketplace-images.md`. Contact details and guest records are fictional. Seeding is limited to local/testing and skips an existing property database.
 
 For an empty installation without demo data, use `php artisan migrate`, then `php artisan stayos:owner`. This command prompts for owner credentials and creates an initial unpublished property. Owners can add properties and staff through Settings. Staff account editing, password recovery, and access revocation need to be added before wider rollout.
 
@@ -186,7 +186,7 @@ The feature suite covers public pages, staff pages, booking overlap/adjacency, r
 - `app/Models`: property, room, reservation and payment records.
 - `database`: schema and local-only demo seeding.
 - `resources/views`: staff workspace, hotel website, marketplace and printable documents.
-- `public/assets`: shared design, browser interactions and original decorative SVG illustrations.
+- `public/assets`: shared design, browser interactions, generated hotel images and original SVG assets.
 - `tests`: domain and Laravel feature tests.
 - `docs/IMPLEMENTATION.md`: architecture, production gaps and integration plan.
 
