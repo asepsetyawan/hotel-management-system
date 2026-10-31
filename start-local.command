@@ -21,7 +21,7 @@ for program in php composer; do
     exit 1
   fi
 done
-php -r 'if (version_compare(PHP_VERSION,"8.3.0","<")) {fwrite(STDERR,"Laravel 13 requires PHP 8.3 or newer.\n");exit(1);} if (!extension_loaded("pdo_sqlite")) {fwrite(STDERR,"Enable the PDO SQLite extension before continuing.\n");exit(1);}'
+php -r 'if (version_compare(PHP_VERSION,"8.3.0","<")) {fwrite(STDERR,"Laravel 13 requires PHP 8.3 or newer.\n");exit(1);}'
 
 # A project-local cache avoids the earlier unwritable Composer cache directory.
 export COMPOSER_CACHE_DIR="$PROJECT_DIR/.runtime/composer-cache"
@@ -35,7 +35,14 @@ composer install --no-interaction --prefer-dist
 if ! php -r '$s=file_get_contents(".env");exit(preg_match("/^APP_KEY=.+$/m",$s)?0:1);'; then
   php artisan key:generate --no-interaction
 fi
-if [ ! -f database/database.sqlite ]; then touch database/database.sqlite; fi
+DB_DRIVER=$(php -r 'require "vendor/autoload.php"; Dotenv\Dotenv::createImmutable(__DIR__)->load(); echo $_ENV["DB_CONNECTION"] ?? "pgsql";')
+if [ "$DB_DRIVER" = "pgsql" ]; then
+  php -r 'if (!extension_loaded("pdo_pgsql")) {fwrite(STDERR,"Enable PDO PostgreSQL before continuing.\n");exit(1);}'
+  docker compose up -d --wait postgres
+elif [ "$DB_DRIVER" = "sqlite" ]; then
+  if [ ! -f database/database.sqlite ]; then touch database/database.sqlite; fi
+fi
+php artisan config:clear
 php artisan migrate --seed --no-interaction
 php artisan view:cache
 php artisan route:list --except-vendor

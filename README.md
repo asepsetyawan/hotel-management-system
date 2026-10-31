@@ -14,9 +14,9 @@ Staff workspace at `/app`, showing arrivals, room availability, housekeeping rea
 
 ### Marketplace
 
-Hotel marketplace at `/`, with destination search and AI-generated photorealistic images for the demonstration properties.
+Hotel marketplace at `/`, with city/hotel-name search, stay dates, guests and rooms, and a distinct AI-generated image for each of the ten demonstration hotels.
 
-![Stay OS marketplace with photorealistic Ubud pool and Bandung courtyard images, destination search, and two demonstration property listings](docs/screenshots/marketplace.jpg)
+![Stay OS marketplace with destination, date and guest search and ten fictional hotels with distinct AI-generated property images](docs/screenshots/marketplace.jpg)
 
 ### Product home
 
@@ -26,15 +26,15 @@ Product landing page at `/product`, showing the introduction and dashboard previ
 
 ## Current verification status
 
-The application has been booted locally with PHP 8.5.8 and Laravel 13.39.0. All 28 automated tests (98 assertions), 22 standalone domain checks, Composer manifest validation, route discovery, Blade compilation, and JavaScript syntax checks passed. Browser checks verified staff navigation, themes, chart controls, mobile menus, search, authentication, and a guest booking through confirmation. The white/blue UI follows `DESIGN.md`; `/product` presents the product while `/` retains the hotel marketplace. Product screenshots and pricing examples are labeled demonstration content. See [UI revamp verification](anti-slop/revamp-delivery-2026-10-31.md) for evidence and reference adaptations. Composer dependencies are installed locally; `vendor` remains excluded from source distribution. These checks cover local SQLite behavior; production integrations and target-database concurrency remain unverified.
+The application has been booted locally with PHP 8.5.8 and Laravel 13.39.0. All 33 automated tests (135 assertions), 22 standalone domain checks, Composer manifest validation, route discovery, Blade compilation, and JavaScript syntax checks passed. Browser checks verified staff navigation, themes, chart controls, mobile menus, search, authentication, and a guest booking through confirmation. The white/blue UI follows `DESIGN.md`; `/product` presents the product while `/` retains the hotel marketplace. Product screenshots and pricing examples are labeled demonstration content. See [UI revamp verification](anti-slop/revamp-delivery-2026-10-31.md) for evidence and reference adaptations. Composer dependencies are installed locally; `vendor` remains excluded from source distribution. The automated suite also passed against Docker PostgreSQL 17 in the separate `stayos_testing` database (33 tests, 135 assertions). HTTP checks confirmed the marketplace lists all ten demo hotels and a new hotel page responds successfully. Production integrations and concurrent booking behavior remain unverified.
 
 ## One-step local launcher (macOS)
 
-Double-click `start-local.command` in Finder, or run `./start-local.command` in your Mac terminal. It installs dependencies using a writable project-local cache, initializes the environment/key/database without replacing existing data, compiles Blade views, lists routes, and runs the development server in the foreground. Composer needs internet access. The launcher is intended for local development only.
+Double-click `start-local.command` in Finder, or run `./start-local.command` in your Mac terminal. It installs dependencies using a writable project-local cache, initializes the environment/key/database without replacing existing data, starts Docker PostgreSQL when configured, compiles Blade views, lists routes, and runs the development server in the foreground. Composer needs internet access. The launcher is intended for local development only.
 
 ## Run locally
 
-Requirements: PHP 8.3+ with Laravel's required extensions plus PDO SQLite, and Composer 2. Development defaults to SQLite; PostgreSQL and MySQL connections are also configured. The application runs directly on your machine.
+Requirements: PHP 8.3+ with Laravel's required extensions plus PDO PostgreSQL, Composer 2, and Docker Desktop. Development defaults to PostgreSQL 17 in Docker, exposed only at `127.0.0.1:5433`. SQLite and MySQL connections are also configured. The application runs directly on your machine.
 
 ```sh
 cp .env.example .env
@@ -45,7 +45,7 @@ Edit `.env` and set `DEMO_ADMIN_PASSWORD` to a password of at least 12 character
 ```sh
 composer install
 php artisan key:generate
-touch database/database.sqlite
+docker compose up -d --wait postgres
 php artisan migrate --seed
 php artisan serve --host=127.0.0.1 --port=8000
 ```
@@ -61,11 +61,31 @@ Local demo users all use your `DEMO_ADMIN_PASSWORD`:
 
 | Account | Role |
 | --- | --- |
-| `admin@stayos.test` | Owner, assigned to both demo properties |
-| `desk@stayos.test` | Front desk, assigned to both demo properties |
+| `admin@stayos.test` | Owner, assigned to all ten demo properties |
+| `desk@stayos.test` | Front desk, assigned to all ten demo properties |
 | `housekeeping@stayos.test` | Housekeeping, assigned only to The Aluna Ubud |
 
-Seed data includes two fictional properties, 36 rooms, sample stays and manual receipts. Marketplace and hotel booking images are AI-generated photorealistic demonstration scenes, not photographs of actual properties. Generation prompts and asset details are in `docs/marketplace-images.md`. Contact details and guest records are fictional. Seeding is limited to local/testing and skips an existing property database.
+Seed data includes ten fictional properties, 180 rooms, 140 sample reservations and manual receipts. Marketplace and hotel booking images are AI-generated photorealistic demonstration scenes, not photographs of actual properties. Generation prompts and asset details are in `docs/marketplace-images.md`. Contact details and guest records are fictional. Seeding is limited to local/testing and adds only missing demo hotel slugs, preserving existing hotels and staff credentials.
+
+### Local PostgreSQL database
+
+Laravel runs on the host and connects to the PostgreSQL service defined in [`compose.yaml`](compose.yaml). The database runs in Docker; the web application does not run inside that container.
+
+| Setting | Local value |
+| --- | --- |
+| Image | `postgres:17` |
+| Host and published port | `127.0.0.1:5433` (container port `5432`) |
+| Database / user | `stayos` / `stayos` |
+| Password | `DB_PASSWORD` in the ignored `.env` file |
+| Storage | Compose volume `postgres_data` (`hotelmanagementsystem_postgres_data` for this checkout) |
+| Test database | `stayos_testing`, separate from application data |
+| Seed records | 10 hotels, 30 room types, 180 rooms, 140 reservations, 140 manual payments |
+
+The `DB_*` values in `.env.example` match the Compose service. Keep `.env` local; it contains the application key and database credentials. PostgreSQL reads its initial database/user/password settings only when initializing an empty volume, so changing `.env` alone does not rotate credentials in an existing database.
+
+The named Docker volume `postgres_data` persists across container restarts. Run `docker compose stop postgres` to stop it and `docker compose up -d --wait postgres` to start it again. `docker compose down` retains data; adding `-v` deletes the database volume. Existing SQLite files are left intact and are not imported into PostgreSQL.
+
+Demo hotels: The Aluna Ubud (Bali), Sora House (Bandung), Laras Heritage Hotel (Yogyakarta), Senja Coast Resort (Lombok), Nusa City Hotel (Jakarta), Taman Dago Lodge (Bandung), Aruna Sanur Stay (Bali), Banyu Lakeside Hotel (Malang), Rimba Bogor Retreat (Bogor), and Pelangi Harbour Hotel (Surabaya). Each has three room types, 18 rooms, 14 sample reservations, and its own property image. Images are static project assets mapped by hotel slug in `config/marketplace.php`; image binaries are not stored in PostgreSQL. Re-running `php artisan db:seed` adds only missing demo hotels without replacing existing property records, reservations, or staff credentials.
 
 For an empty installation without demo data, use `php artisan migrate`, then `php artisan stayos:owner`. This command prompts for owner credentials and creates an initial unpublished property. Owners can add properties and staff through Settings. Staff account editing, password recovery, and access revocation need to be added before wider rollout.
 
@@ -84,7 +104,7 @@ This is a first implementation, not a production-complete hospitality suite. OTA
 
 ## Database design
 
-The application uses a relational database shared by the staff workspace and public booking website. SQLite is the local default; PostgreSQL is the preferred production target, and MySQL is also configured. The schema source of truth is [the hotel platform migration](database/migrations/2026_10_31_000001_create_hotel_platform.php); connection settings are in [config/database.php](config/database.php).
+The application uses a relational database shared by the staff workspace and public booking website. Docker PostgreSQL is the local default; PostgreSQL is the preferred production target, and MySQL is also configured. The schema source of truth is [the hotel platform migration](database/migrations/2026_10_31_000001_create_hotel_platform.php); connection settings are in [config/database.php](config/database.php).
 
 ### Entity relationships
 
@@ -139,6 +159,10 @@ Guest contact details are stored per reservation. The guest directory groups res
 
 All declared foreign keys reference existing parent rows. Apart from the assignment pivot's two cascading foreign keys, the migration does not configure cascading deletes or set-null behavior. A nullable audit user does not imply that deleting its user automatically clears the reference.
 
+### Marketplace search
+
+The joined search bar accepts a city/destination or hotel name (case insensitive), a 1–90 night date range, adults, children, and rooms. Results include only published properties with operational rooms available for every requested night and enough combined capacity for the party across the requested number of rooms. At least one adult is required per room; children count toward capacity. Dates and group details carry into hotel links. Rates are starting nightly prices per room before tax, not a quote for the whole group. Multi-room reservations are currently made one room at a time, as explained on the search results and hotel pages.
+
 ### Inventory, pricing, and application rules
 
 - **Night allocation:** [BookingService](app/Services/BookingService.php) locks the selected room inside a transaction, checks availability and capacity, then creates the reservation and one `room_nights` row for each date in `[check_in, check_out)`. The unique room/night constraint guards duplicate allocations. Cancellation and checkout delete allocations while retaining the reservation and receipts. Target-database concurrency still needs verification.
@@ -176,7 +200,16 @@ php artisan route:list
 php artisan view:cache
 ```
 
-The feature suite covers public pages, staff pages, booking overlap/adjacency, rate snapshots, manual payments and replay protection, room readiness, checkout balances, property access, role restrictions, unpublished hotels, and calendar feed privacy. It uses an isolated in-memory test database.
+To run the same suite against Docker PostgreSQL, create a separate test database once, then use the PostgreSQL test configuration (credentials come from `.env`):
+
+```sh
+docker compose exec -T postgres createdb -U stayos stayos_testing
+vendor/bin/phpunit --configuration phpunit.pgsql.xml
+```
+
+The PostgreSQL configuration uses only `stayos_testing`; its schema is reset during tests. The default `php artisan test` continues to use in-memory SQLite.
+
+The feature suite covers public pages, staff pages, booking overlap/adjacency, rate snapshots, manual payments and replay protection, room readiness, checkout balances, property access, role restrictions, unpublished hotels, and calendar feed privacy. By default it uses an isolated in-memory SQLite test database.
 
 ## Project layout
 

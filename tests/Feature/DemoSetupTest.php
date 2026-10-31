@@ -33,9 +33,12 @@ class DemoSetupTest extends TestCase
         }
 
         $this->seed();
-        $this->assertDatabaseCount('properties', 2);
-        $this->assertDatabaseCount('rooms', 36);
-        $this->assertDatabaseCount('reservations', 28);
+        $this->assertDatabaseCount('properties', 10);
+        $this->assertDatabaseCount('rooms', 180);
+        $this->assertDatabaseCount('reservations', 140);
         $this->assertDatabaseHas('reservations', ['total' => 3774000]);
+        $this->seed();
+        $this->assertDatabaseCount('properties', 10);
+        $this->assertDatabaseCount('reservations', 140);
     }
 }

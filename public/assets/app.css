@@ -352,14 +352,14 @@ dialog::backdrop { background:rgb(15 23 38 / 48%) }
 .public-hero { max-width:1280px; margin:0 auto; display:grid; grid-template-columns:1.1fr 1fr; gap:60px; align-items:center; padding:64px 40px 80px }
 .public-hero h1 { font-size:52px; line-height:1.1; letter-spacing:-.045em; margin:16px 0 24px }
 .public-hero p { font-size:15px; line-height:1.75; max-width:510px; margin-bottom:25px }
-.hero-art { width:100%; aspect-ratio:1.18; object-fit:cover; border-radius:16px; background:var(--surface-subtle) }
+.hero-art { width:100%; height:auto; aspect-ratio:1.18; object-fit:cover; border-radius:16px; background:var(--surface-subtle) }
 .public-section { max-width:1200px; padding:24px 0 80px; margin:0 auto }
 .public-section-heading { display:flex; align-items:end; justify-content:space-between; gap:24px; margin-bottom:30px }
 .public-section h2 { font-size:32px; line-height:1.2 }
 .public-section-heading p { font-size:14px; margin:0 }
 .property-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px }
 .property-card { border:1px solid var(--border); border-radius:12px; overflow:hidden; background:var(--surface) }
-.property-card img { width:100%; aspect-ratio:1.6; object-fit:cover; background:var(--surface-subtle); display:block }
+.property-card img { width:100%; height:auto; aspect-ratio:1.6; object-fit:cover; background:var(--surface-subtle); display:block }
 .property-card-content { padding:24px }
 .property-card h3 { font-size:23px; margin:10px 0 12px }
 .property-card p { font-size:13px; line-height:1.7 }
@@ -722,3 +722,70 @@ dialog::backdrop { background:rgb(15 23 38 / 48%) }
 }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none!important; animation:none!important; scroll-behavior:auto!important } }
 @media print { body { background:white; color:black } .print-button,.no-print { display:none } .invoice { border:0; margin:0; max-width:none; padding:20px } .invoice-total { break-inside:avoid } }
+
+/* The joined search row follows the marketplace reference; panels lift only when opened. */
+.marketplace-search-section { max-width:1280px; padding:30px 40px 0; margin:0 auto }
+.marketplace-search { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.08fr) minmax(0,1fr) 52px; align-items:start; gap:0; position:relative; z-index:5 }
+.stay-search-field { min-width:0 }
+.stay-search-field>label,.stay-search-label { display:block; font-size:13px; font-weight:400; margin:0 0 12px; color:var(--text) }
+.stay-search-control { display:flex; align-items:center; gap:10px; height:50px; padding:0 13px; border:1px solid #c8cdd3; background:var(--surface); color:var(--text); font-size:14px; font-weight:500; min-width:0; cursor:pointer }
+.destination-field .stay-search-control { border-radius:16px 0 0 16px }
+.dates-field .stay-search-control,.guests-field .stay-search-control { border-left:0 }
+.stay-search-control>.icon { width:22px; height:22px; color:var(--primary); flex:none }
+.stay-search-control>span { overflow:hidden; white-space:nowrap; text-overflow:ellipsis }
+.stay-search-control input { border:0; padding:0; border-radius:0; width:100%; min-width:0; height:100%; background:transparent; font-size:14px; box-shadow:none }
+.stay-search-control input::placeholder { color:#757d87; font-weight:400 }
+.stay-search-control:focus-within,.stay-search-control:focus-visible { outline:2px solid var(--primary); outline-offset:-2px }
+.stay-search-control input:focus { outline:none }
+.stay-search-details { position:relative }
+.stay-search-details>summary { list-style:none }
+.stay-search-details>summary::-webkit-details-marker { display:none }
+.stay-search-details>summary:hover,.stay-search-details[open]>summary { background:var(--primary-soft) }
+.stay-search-submit { margin-top:31px; height:50px; display:flex; align-items:center; justify-content:center; border:0; border-radius:0 16px 16px 0; background:var(--primary); color:white; cursor:pointer }
+.stay-search-submit:hover { background:var(--primary-hover) }
+.stay-search-submit:active { transform:translateY(1px) }
+.stay-search-submit:disabled { opacity:.65; cursor:wait }
+.stay-search-submit>.icon { width:22px; height:22px }
+.stay-search-submit>span { display:none }
+.stay-search-popover { position:absolute; top:calc(100% + 10px); left:0; width:370px; max-width:calc(100vw - 48px); background:var(--surface); padding:24px; border:1px solid var(--border); border-radius:12px; box-shadow:0 12px 36px #1824321f }
+.guests-popover { left:auto; right:0; width:320px }
+.stay-search-popover h3 { font-size:18px; margin:0 0 20px }
+.stay-date-inputs { display:grid; grid-template-columns:1fr 1fr; gap:14px }
+.stay-date-inputs label { font-size:12px; min-width:0 }
+.stay-date-inputs input { width:100%; min-width:0; font-size:13px; margin-top:8px; padding:10px 8px }
+.stay-search-popover .button { display:flex; margin-left:auto; min-height:40px }
+.stay-search-popover .field-help { margin:18px 0; font-size:12px }
+.stay-guest-row { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px 0; border-bottom:1px solid var(--border) }
+.stay-guest-row label { font-size:14px; font-weight:500 }
+.stay-stepper { display:flex; align-items:center; gap:6px }
+.stay-stepper button { height:36px; width:36px; border:1px solid #b9c9dc; border-radius:6px; background:var(--surface); color:var(--primary); font-size:20px; cursor:pointer }
+.stay-stepper button:hover { background:var(--primary-soft) }
+.stay-stepper button:disabled { color:#818894; background:var(--surface-subtle); cursor:not-allowed; opacity:.65 }
+.stay-stepper input { width:36px; padding:7px 0; border:0; text-align:center; font-size:15px; appearance:textfield; background:transparent }
+.stay-stepper input::-webkit-inner-spin-button,.stay-stepper input::-webkit-outer-spin-button { appearance:none; margin:0 }
+.search-error { display:block; color:var(--danger); font-size:12px; margin-top:8px }
+.marketplace-booking-note { padding:14px 18px; background:var(--primary-soft); border-radius:8px; margin-bottom:24px; font-size:13px }
+.marketplace-empty { grid-column:1/-1; padding:48px 20px }
+.marketplace-empty>.icon { width:28px; height:28px; color:var(--primary); margin-bottom:16px }
+.marketplace-empty h3 { font-size:22px }
+.marketplace-empty .button { margin-top:12px }
+.marketplace-demo-note { font-size:12px; color:var(--text-secondary); margin-top:28px }
+.marketplace-search .form-status { grid-column:1/-1; margin:8px 0 0; font-size:12px }
+@media (max-width:1050px) and (min-width:768px) {
+ .marketplace-search { grid-template-columns:1fr 1.2fr 52px; row-gap:18px }
+ .destination-field { grid-column:1/-1 }
+ .destination-field .stay-search-control { border-radius:10px }
+ .dates-field .stay-search-control { border-left:1px solid #c8cdd3; border-radius:10px 0 0 10px }
+}
+@media (max-width:767px) {
+ .marketplace-search-section { padding:24px 20px 0 }
+ .marketplace-search { grid-template-columns:minmax(0,1fr); gap:16px }
+ .stay-search-field>label,.stay-search-label { margin-bottom:8px }
+ .destination-field .stay-search-control,.dates-field .stay-search-control,.guests-field .stay-search-control { border:1px solid #c8cdd3; border-radius:10px }
+ .stay-search-control { font-size:13px; height:50px }
+ .stay-search-submit { margin-top:0; border-radius:10px; gap:10px; font-size:14px; font-weight:600 }
+ .stay-search-submit>span { display:inline }
+ .stay-search-popover { width:100%; max-width:none; padding:20px }
+ .stay-stepper button { width:44px; height:44px }
+ .marketplace-search-section+.public-hero { padding-top:40px }
+}

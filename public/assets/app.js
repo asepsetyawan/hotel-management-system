@@ -98,3 +98,40 @@ document.querySelectorAll('input[name=check_in]').forEach(input=>input.addEventL
  const date=new Date(input.value+'T12:00:00');date.setDate(date.getDate()+1);
  const min=[date.getFullYear(),String(date.getMonth()+1).padStart(2,'0'),String(date.getDate()).padStart(2,'0')].join('-');out.min=min;if(!out.value||out.value<=input.value)out.value=min;
 }));
+
+const staySearch=document.querySelector('[data-stay-search]');
+if(staySearch){
+ const panels=[...staySearch.querySelectorAll('[data-search-panel]')];
+ const arrival=staySearch.elements.check_in,departure=staySearch.elements.check_out;
+ const adults=staySearch.elements.adults,children=staySearch.elements.children,rooms=staySearch.elements.rooms;
+ const day=value=>new Date(value+'T12:00:00');
+ const dateFormat=new Intl.DateTimeFormat('en-GB',{weekday:'short',day:'2-digit',month:'short'});
+ const plural=(count,one,many=one+'s')=>`${count} ${count===1?one:many}`;
+ function updateSearch(){
+  const start=day(arrival.value),end=day(departure.value);
+  const nights=Math.round((Date.UTC(end.getFullYear(),end.getMonth(),end.getDate())-Date.UTC(start.getFullYear(),start.getMonth(),start.getDate()))/86400000);
+  departure.setCustomValidity(nights>90?'Choose a stay of no more than 90 nights.':'');
+  if(Number.isFinite(nights)&&nights>0)staySearch.querySelector('[data-dates-summary]').textContent=`${dateFormat.format(start)} – ${dateFormat.format(end)} (${plural(nights,'night')})`;
+  const adultCount=Number(adults.value),childCount=Number(children.value),roomCount=Number(rooms.value);
+  adults.setCustomValidity(adultCount<roomCount?'Choose at least one adult per room.':'');
+  staySearch.querySelector('[data-guests-summary]').textContent=`${plural(adultCount,'adult')}, ${plural(childCount,'child','children')}, ${plural(roomCount,'room')}`;
+  staySearch.querySelectorAll('[data-step]').forEach(button=>{
+   const input=document.getElementById(button.dataset.for);
+   button.disabled=Number(button.dataset.step)<0?Number(input.value)<=Number(input.min):Number(input.value)>=Number(input.max);
+  });
+ }
+ function closePanel(panel,focus=false){panel.open=false;if(focus)panel.querySelector('summary').focus();}
+ panels.forEach(panel=>panel.addEventListener('toggle',()=>{if(panel.open)panels.filter(other=>other!==panel).forEach(other=>closePanel(other));}));
+ staySearch.addEventListener('click',event=>{
+  const step=event.target.closest('[data-step]');
+  if(step){const input=document.getElementById(step.dataset.for);input.value=Math.min(Number(input.max),Math.max(Number(input.min),Number(input.value)+Number(step.dataset.step)));updateSearch();}
+  const done=event.target.closest('[data-search-done]');
+  if(done){const panel=done.closest('details');const invalid=[...panel.querySelectorAll('input')].find(input=>!input.checkValidity());if(invalid)invalid.reportValidity();else closePanel(panel,true);}
+ });
+ staySearch.addEventListener('input',updateSearch);
+ staySearch.addEventListener('change',updateSearch);
+ staySearch.addEventListener('invalid',event=>{const panel=event.target.closest('details');if(panel)panel.open=true;},true);
+ staySearch.addEventListener('keydown',event=>{if(event.key==='Escape')panels.filter(panel=>panel.open).forEach(panel=>closePanel(panel,true));});
+ document.addEventListener('click',event=>panels.filter(panel=>panel.open&&!panel.contains(event.target)).forEach(panel=>closePanel(panel)));
+ updateSearch();
+}
