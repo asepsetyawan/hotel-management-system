@@ -1,0 +1,4252 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "desktop": {
+        "title": "Thoughtful places. Memorable stays. · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay collection.",
+            "w": 167.5,
+            "h": 42
+          },
+          {
+            "text": "Explore stays",
+            "w": 73.4,
+            "h": 18
+          },
+          {
+            "text": "Staff workspace",
+            "w": 139.8,
+            "h": 38.5
+          },
+          {
+            "text": "Find your kind of place",
+            "w": 173.6,
+            "h": 38.5
+          },
+          {
+            "text": "Search",
+            "w": 81.4,
+            "h": 34.5
+          },
+          {
+            "text": "",
+            "w": 391.3,
+            "h": 18
+          },
+          {
+            "text": "The Aluna Ubud",
+            "w": 347.3,
+            "h": 39
+          },
+          {
+            "text": "Explore The Aluna Ubud",
+            "w": 32,
+            "h": 32
+          },
+          {
+            "text": "",
+            "w": 391.3,
+            "h": 18
+          },
+          {
+            "text": "Sora House",
+            "w": 347.3,
+            "h": 39
+          },
+          {
+            "text": "Explore Sora House",
+            "w": 32,
+            "h": 32
+          },
+          {
+            "text": "Stay OS",
+            "w": 40.5,
+            "h": 14
+          }
+        ],
+        "imgs": [
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.6 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/suite.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.6 / 1",
+            "priority": "auto"
+          }
+        ],
+        "brokenAnchors": [],
+        "dialogs": [],
+        "loading": [],
+        "landmarks": [
+          "HEADER",
+          "NAV",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/",
+      "mobile": {
+        "title": "Thoughtful places. Memorable stays. · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay collection.",
+            "w": 147.9,
+            "h": 37.5
+          },
+          {
+            "text": "Staff workspace",
+            "w": 139.8,
+            "h": 38.5
+          },
+          {
+            "text": "Find your kind of place",
+            "w": 173.6,
+            "h": 38.5
+          },
+          {
+            "text": "Search",
+            "w": 81.4,
+            "h": 34.5
+          },
+          {
+            "text": "",
+            "w": 342,
+            "h": 18
+          },
+          {
+            "text": "The Aluna Ubud",
+            "w": 298,
+            "h": 39
+          },
+          {
+            "text": "Explore The Aluna Ubud",
+            "w": 32,
+            "h": 32
+          },
+          {
+            "text": "",
+            "w": 342,
+            "h": 18
+          },
+          {
+            "text": "Sora House",
+            "w": 298,
+            "h": 39
+          },
+          {
+            "text": "Explore Sora House",
+            "w": 32,
+            "h": 32
+          },
+          {
+            "text": "Stay OS",
+            "w": 40.5,
+            "h": 14
+          }
+        ],
+        "imgs": [
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.5 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.6 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/suite.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.6 / 1",
+            "priority": "auto"
+          }
+        ],
+        "brokenAnchors": [],
+        "dialogs": [],
+        "loading": [],
+        "landmarks": [
+          "HEADER",
+          "NAV",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/",
+      "mobile": {
+        "title": "Thoughtful places. Memorable stays. · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "Staff workspace",
+            "w": 139.8,
+            "h": 38.5
+          },
+          {
+            "text": "Find your kind of place",
+            "w": 173.6,
+            "h": 38.5
+          },
+          {
+            "text": "Search",
+            "w": 81.4,
+            "h": 34.5
+          },
+          {
+            "text": "",
+            "w": 272,
+            "h": 18
+          },
+          {
+            "text": "The Aluna Ubud",
+            "w": 228,
+            "h": 39
+          },
+          {
+            "text": "Explore The Aluna Ubud",
+            "w": 32,
+            "h": 32
+          },
+          {
+            "text": "",
+            "w": 272,
+            "h": 18
+          },
+          {
+            "text": "Sora House",
+            "w": 228,
+            "h": 39
+          },
+          {
+            "text": "Explore Sora House",
+            "w": 32,
+            "h": 32
+          },
+          {
+            "text": "Stay OS",
+            "w": 40.5,
+            "h": 14
+          }
+        ],
+        "imgs": [
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.5 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.6 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/suite.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.6 / 1",
+            "priority": "auto"
+          }
+        ],
+        "brokenAnchors": [],
+        "dialogs": [],
+        "loading": [],
+        "landmarks": [
+          "HEADER",
+          "NAV",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/hotels/the-aluna-ubud",
+      "desktop": {
+        "title": "The Aluna Ubud · Find your stay",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "The Aluna Ubud",
+            "w": 189.3,
+            "h": 42
+          },
+          {
+            "text": "Explore stays",
+            "w": 73.4,
+            "h": 18
+          },
+          {
+            "text": "Our rooms",
+            "w": 59,
+            "h": 18
+          },
+          {
+            "text": "Get in touch",
+            "w": 68.9,
+            "h": 18
+          },
+          {
+            "text": "Find your stay",
+            "w": 128.8,
+            "h": 38.5
+          },
+          {
+            "text": "Make yourself at home",
+            "w": 173.4,
+            "h": 38.5
+          },
+          {
+            "text": "1 guest\n2 guests\n3 guests\n4 guests\n5 guests\n6",
+            "w": 259.1,
+            "h": 33
+          },
+          {
+            "text": "Find a room",
+            "w": 134.7,
+            "h": 42
+          },
+          {
+            "text": "Reserve your stay",
+            "w": 147.8,
+            "h": 38.5
+          },
+          {
+            "text": "Reserve your stay",
+            "w": 147.8,
+            "h": 38.5
+          },
+          {
+            "text": "Stay OS",
+            "w": 40.5,
+            "h": 14
+          }
+        ],
+        "imgs": [
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/suite.svg",
+            "width": null,
+            "height": null,
+            "aspect": "auto",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "auto",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/suite.svg",
+            "width": null,
+            "height": null,
+            "aspect": "auto",
+            "priority": "auto"
+          }
+        ],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "book-2",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "book-3",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "HEADER",
+          "NAV",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/hotels/the-aluna-ubud",
+      "mobile": {
+        "title": "The Aluna Ubud · Find your stay",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "The Aluna Ubud",
+            "w": 167.5,
+            "h": 37.5
+          },
+          {
+            "text": "Find your stay",
+            "w": 128.8,
+            "h": 38.5
+          },
+          {
+            "text": "Make yourself at home",
+            "w": 173.4,
+            "h": 38.5
+          },
+          {
+            "text": "1 guest\n2 guests\n3 guests\n4 guests\n5 guests\n6",
+            "w": 145.5,
+            "h": 33
+          },
+          {
+            "text": "Find a room",
+            "w": 145.5,
+            "h": 42
+          },
+          {
+            "text": "Reserve your stay",
+            "w": 147.8,
+            "h": 38.5
+          },
+          {
+            "text": "Reserve your stay",
+            "w": 147.8,
+            "h": 38.5
+          },
+          {
+            "text": "Stay OS",
+            "w": 40.5,
+            "h": 14
+          }
+        ],
+        "imgs": [
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.5 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/suite.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.8 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.8 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/suite.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.8 / 1",
+            "priority": "auto"
+          }
+        ],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "book-2",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "book-3",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "HEADER",
+          "NAV",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/hotels/the-aluna-ubud",
+      "mobile": {
+        "title": "The Aluna Ubud · Find your stay",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "Find your stay",
+            "w": 128.8,
+            "h": 38.5
+          },
+          {
+            "text": "Make yourself at home",
+            "w": 173.4,
+            "h": 38.5
+          },
+          {
+            "text": "1 guest\n2 guests\n3 guests\n4 guests\n5 guests\n6",
+            "w": 111,
+            "h": 33
+          },
+          {
+            "text": "Find a room",
+            "w": 111,
+            "h": 42
+          },
+          {
+            "text": "Reserve your stay",
+            "w": 147.8,
+            "h": 38.5
+          },
+          {
+            "text": "Reserve your stay",
+            "w": 147.8,
+            "h": 38.5
+          },
+          {
+            "text": "Stay OS",
+            "w": 40.5,
+            "h": 14
+          }
+        ],
+        "imgs": [
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.5 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/suite.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.8 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/retreat.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.8 / 1",
+            "priority": "auto"
+          },
+          {
+            "src": "/assets/suite.svg",
+            "width": null,
+            "height": null,
+            "aspect": "1.8 / 1",
+            "priority": "auto"
+          }
+        ],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "book-2",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "book-3",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "HEADER",
+          "NAV",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/login",
+      "desktop": {
+        "title": "Welcome back · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos",
+            "w": 600,
+            "h": 39
+          },
+          {
+            "text": "Explore the hotel collection",
+            "w": 163.3,
+            "h": 16.5
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [],
+        "loading": [],
+        "landmarks": [],
+        "h1": 2
+      }
+    },
+    {
+      "path": "/login",
+      "mobile": {
+        "title": "Welcome back · Stay OS",
+        "width": 390,
+        "scrollWidth": 410,
+        "overflow": [
+          {
+            "tag": "DIV",
+            "class": "auth-art",
+            "text": "stay\nos\nHOSPITALITY, SIMPLIFIED.\nMore gu"
+          },
+          {
+            "tag": "DIV",
+            "class": "auth-content",
+            "text": "YOUR HOTEL WORKSPACE\nWelcome back.\n\nLet'"
+          }
+        ],
+        "smallTargets": [
+          {
+            "text": "stay\nos",
+            "w": 350,
+            "h": 39
+          },
+          {
+            "text": "Explore the hotel collection",
+            "w": 163.3,
+            "h": 16.5
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [],
+        "loading": [],
+        "landmarks": [],
+        "h1": 2
+      }
+    },
+    {
+      "path": "/login",
+      "mobile": {
+        "title": "Welcome back · Stay OS",
+        "width": 320,
+        "scrollWidth": 410,
+        "overflow": [
+          {
+            "tag": "DIV",
+            "class": "auth-art",
+            "text": "stay\nos\nHOSPITALITY, SIMPLIFIED.\nMore gu"
+          },
+          {
+            "tag": "A",
+            "class": "brand",
+            "text": "stay\nos"
+          },
+          {
+            "tag": "DIV",
+            "class": "",
+            "text": "HOSPITALITY, SIMPLIFIED.\nMore guest time"
+          },
+          {
+            "tag": "DIV",
+            "class": "eyebrow",
+            "text": "HOSPITALITY, SIMPLIFIED."
+          },
+          {
+            "tag": "H1",
+            "class": "",
+            "text": "More guest time.\nLess everything else."
+          },
+          {
+            "tag": "SMALL",
+            "class": "",
+            "text": "One platform. Every part of the stay."
+          },
+          {
+            "tag": "DIV",
+            "class": "auth-content",
+            "text": "YOUR HOTEL WORKSPACE\nWelcome back.\n\nLet'"
+          },
+          {
+            "tag": "FORM",
+            "class": "login-card",
+            "text": "YOUR HOTEL WORKSPACE\nWelcome back.\n\nLet'"
+          }
+        ],
+        "smallTargets": [
+          {
+            "text": "stay\nos",
+            "w": 350,
+            "h": 39
+          },
+          {
+            "text": "Explore the hotel collection",
+            "w": 163.3,
+            "h": 16.5
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [],
+        "loading": [],
+        "landmarks": [],
+        "h1": 2
+      }
+    },
+    {
+      "path": "/app",
+      "desktop": {
+        "title": "Overview · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app",
+      "mobile": {
+        "title": "Overview · Stay OS",
+        "width": 390,
+        "scrollWidth": 504,
+        "overflow": [
+          {
+            "tag": "DIV",
+            "class": "",
+            "text": "Front desk, in focus\n\nA smooth arrival. "
+          },
+          {
+            "tag": "SECTION",
+            "class": "panel",
+            "text": "Front desk, in focus\n\nA smooth arrival. "
+          },
+          {
+            "tag": "DIV",
+            "class": "panel-header",
+            "text": "Front desk, in focus\n\nA smooth arrival. "
+          },
+          {
+            "tag": "A",
+            "class": "text-link",
+            "text": "All reservations"
+          },
+          {
+            "tag": "svg",
+            "class": {}
+          },
+          {
+            "tag": "path",
+            "class": {}
+          },
+          {
+            "tag": "DIV",
+            "class": "panel-tabs",
+            "text": "Arrivals 4\nDepartures 2"
+          },
+          {
+            "tag": "DIV",
+            "class": "",
+            "text": "GUEST\tROOM\tSTAY\tSTATUS\t\n\nLB\nLocal Browse"
+          }
+        ],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app",
+      "mobile": {
+        "title": "Overview · Stay OS",
+        "width": 320,
+        "scrollWidth": 504,
+        "overflow": [
+          {
+            "tag": "DIV",
+            "class": "",
+            "text": "Front desk, in focus\n\nA smooth arrival. "
+          },
+          {
+            "tag": "SECTION",
+            "class": "panel",
+            "text": "Front desk, in focus\n\nA smooth arrival. "
+          },
+          {
+            "tag": "DIV",
+            "class": "panel-header",
+            "text": "Front desk, in focus\n\nA smooth arrival. "
+          },
+          {
+            "tag": "A",
+            "class": "text-link",
+            "text": "All reservations"
+          },
+          {
+            "tag": "svg",
+            "class": {}
+          },
+          {
+            "tag": "path",
+            "class": {}
+          },
+          {
+            "tag": "DIV",
+            "class": "panel-tabs",
+            "text": "Arrivals 4\nDepartures 2"
+          },
+          {
+            "tag": "DIV",
+            "class": "",
+            "text": "GUEST\tROOM\tSTAY\tSTATUS\t\n\nLB\nLocal Browse"
+          }
+        ],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/reservations",
+      "desktop": {
+        "title": "Reservations · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "reservation-29",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "reservation-13",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "reservation-14",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/reservations",
+      "mobile": {
+        "title": "Reservations · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "reservation-29",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "reservation-13",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "reservation-14",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/reservations",
+      "mobile": {
+        "title": "Reservations · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "reservation-29",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "reservation-13",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "reservation-14",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/calendar",
+      "desktop": {
+        "title": "Availability · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/calendar",
+      "mobile": {
+        "title": "Availability · Stay OS",
+        "width": 390,
+        "scrollWidth": 712,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/calendar",
+      "mobile": {
+        "title": "Availability · Stay OS",
+        "width": 320,
+        "scrollWidth": 712,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/rooms",
+      "desktop": {
+        "title": "Rooms & rates · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-room",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-type",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/rooms",
+      "mobile": {
+        "title": "Rooms & rates · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-room",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-type",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/rooms",
+      "mobile": {
+        "title": "Rooms & rates · Stay OS",
+        "width": 320,
+        "scrollWidth": 325,
+        "overflow": [
+          {
+            "tag": "DIV",
+            "class": "room-card",
+            "text": "102\nClean\nGarden Deluxe\nGround floor\n2 g"
+          },
+          {
+            "tag": "DIV",
+            "class": "room-card",
+            "text": "104\nClean\nGarden Deluxe\nGround floor\n2 g"
+          },
+          {
+            "tag": "DIV",
+            "class": "room-card",
+            "text": "106\nClean\nGarden Deluxe\nGround floor\n2 g"
+          },
+          {
+            "tag": "DIV",
+            "class": "room-card",
+            "text": "108\nClean\nTerrace Suite\nGround floor\n3 g"
+          },
+          {
+            "tag": "DIV",
+            "class": "room-card",
+            "text": "110\nClean\nTerrace Suite\nFirst floor\n3 gu"
+          },
+          {
+            "tag": "DIV",
+            "class": "room-card",
+            "text": "112\nClean\nTerrace Suite\nFirst floor\n3 gu"
+          },
+          {
+            "tag": "DIV",
+            "class": "room-card",
+            "text": "114\nDirty\nPool Villa\nFirst floor\n4 guest"
+          },
+          {
+            "tag": "DIV",
+            "class": "room-card",
+            "text": "116\nClean\nPool Villa\nFirst floor\n4 guest"
+          }
+        ],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-room",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-type",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/guests",
+      "desktop": {
+        "title": "Guests · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/guests",
+      "mobile": {
+        "title": "Guests · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/guests",
+      "mobile": {
+        "title": "Guests · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/housekeeping",
+      "desktop": {
+        "title": "Housekeeping · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/housekeeping",
+      "mobile": {
+        "title": "Housekeeping · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/housekeeping",
+      "mobile": {
+        "title": "Housekeeping · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/billing",
+      "desktop": {
+        "title": "Billing & payments · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/billing",
+      "mobile": {
+        "title": "Billing & payments · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/billing",
+      "mobile": {
+        "title": "Billing & payments · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/reports",
+      "desktop": {
+        "title": "Reports · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/reports",
+      "mobile": {
+        "title": "Reports · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/reports",
+      "mobile": {
+        "title": "Reports · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/channels",
+      "desktop": {
+        "title": "Channel manager · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/channels",
+      "mobile": {
+        "title": "Channel manager · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/channels",
+      "mobile": {
+        "title": "Channel manager · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/website",
+      "desktop": {
+        "title": "Website & booking · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/website",
+      "mobile": {
+        "title": "Website & booking · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/website",
+      "mobile": {
+        "title": "Website & booking · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/mobile",
+      "desktop": {
+        "title": "Mobile workspace · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/mobile",
+      "mobile": {
+        "title": "Mobile workspace · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/mobile",
+      "mobile": {
+        "title": "Mobile workspace · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/settings",
+      "desktop": {
+        "title": "Settings · Stay OS",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 206,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 157,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Availability",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Guests",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Housekeeping",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Billing & payments",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Reports",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 206,
+            "h": 38
+          },
+          {
+            "text": "Website & booking",
+            "w": 206,
+            "h": 38
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-property",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-staff",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/settings",
+      "mobile": {
+        "title": "Settings · Stay OS",
+        "width": 390,
+        "scrollWidth": 390,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-property",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-staff",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    },
+    {
+      "path": "/app/settings",
+      "mobile": {
+        "title": "Settings · Stay OS",
+        "width": 320,
+        "scrollWidth": 320,
+        "overflow": [],
+        "smallTargets": [
+          {
+            "text": "stay\nos\n®",
+            "w": 219,
+            "h": 39
+          },
+          {
+            "text": "The Aluna Ubud\nSora House",
+            "w": 170,
+            "h": 24
+          },
+          {
+            "text": "Overview",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reservations\n4",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Availability",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Rooms & rates",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Guests",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Housekeeping",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Billing & payments",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Reports",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Channel manager\nBETA",
+            "w": 219,
+            "h": 37
+          },
+          {
+            "text": "Website & booking",
+            "w": 219,
+            "h": 37
+          }
+        ],
+        "imgs": [],
+        "brokenAnchors": [],
+        "dialogs": [
+          {
+            "id": "new-property",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-staff",
+            "label": null,
+            "labelledby": null
+          },
+          {
+            "id": "new-reservation",
+            "label": null,
+            "labelledby": null
+          }
+        ],
+        "loading": [],
+        "landmarks": [
+          "NAV",
+          "HEADER",
+          "MAIN",
+          "FOOTER"
+        ],
+        "h1": 1
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "action": "Destination search with no results",
+      "result": "No hotels found for that destination. Try another city."
+    },
+    {
+      "action": "Clear destination search",
+      "result": true
+    },
+    {
+      "action": "Open guest booking dialog",
+      "result": {
+        "open": true,
+        "label": null,
+        "labelledby": null
+      }
+    },
+    {
+      "action": "Empty guest booking",
+      "result": {
+        "valid": false,
+        "message": "Please fill out this field."
+      }
+    },
+    {
+      "action": "Guest dialog Escape",
+      "result": true
+    },
+    {
+      "action": "Owner sign-in",
+      "result": "/app"
+    },
+    {
+      "action": "Departures tab",
+      "result": true
+    },
+    {
+      "action": "Tab ArrowRight",
+      "result": {
+        "focused": "Arrivals 4",
+        "departureSelected": "false"
+      }
+    },
+    {
+      "action": "Empty staff reservation",
+      "result": {
+        "valid": false,
+        "message": "Please fill out this field."
+      }
+    },
+    {
+      "action": "Mobile drawer open",
+      "result": {
+        "expanded": null,
+        "controls": null,
+        "open": true
+      }
+    },
+    {
+      "action": "Mobile drawer Escape",
+      "result": {
+        "remainsOpen": true
+      }
+    },
+    {
+      "action": "Mobile drawer toggle after opening",
+      "result": {
+        "toggleCovered": true
+      }
+    },
+    {
+      "action": "Mobile drawer closed Tab",
+      "result": {
+        "text": "Skip to content",
+        "insideSidebar": false
+      }
+    },
+    {
+      "action": "Tab from skip link while drawer hidden",
+      "result": {
+        "insideSidebar": true,
+        "text": "stayos®",
+        "rect": {
+          "x": -232,
+          "y": 25,
+          "width": 219,
+          "height": 39,
+          "top": 25,
+          "right": -13,
+          "bottom": 64,
+          "left": -232
+        }
+      }
+    },
+    {
+      "action": "Unmatched reservation search",
+      "result": "No reservations match your search."
+    },
+    {
+      "action": "Reservation Manage",
+      "result": true
+    },
+    {
+      "action": "Invoice destination",
+      "result": "Invoice ST-CVBASMWM · Stay OS"
+    },
+    {
+      "action": "Add room type",
+      "result": true
+    },
+    {
+      "action": "Add room",
+      "result": true
+    },
+    {
+      "action": "Add property",
+      "result": true
+    },
+    {
+      "action": "Add staff member",
+      "result": true
+    }
+  ],
+  "errors": [],
+  "networkErrors": []
+}

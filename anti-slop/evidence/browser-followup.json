@@ -1,0 +1,57 @@
+{
+  "dialog": "- dialog:\n  - text: The Aluna Ubud\n  - heading \"Make it your next stay.\" [level=2]\n  - button \"Close\"\n  - text: Room type\n  - strong: Terrace Suite\n  - text: Stay total incl. tax\n  - strong: Rp 1.609.500\n  - text: Check-in\n  - strong: 2026-10-31\n  - text: Check-out\n  - strong: 2026-11-01\n  - text: Your full name\n  - textbox \"Your full name\"\n  - text: Email address\n  - textbox \"Email address\"\n  - text: Phone number\n  - textbox \"Phone number\"\n  - text: Special requests\n  - textbox \"Special requests\"\n  - paragraph: Payment is arranged directly with the property. No card is charged online. Availability and current rates are checked again on confirmation. By reserving, you share these details with the property to manage your stay.\n  - button \"Confirm reservation\"",
+  "pending": {
+    "button": "Confirm reservation",
+    "disabled": true,
+    "busy": null,
+    "statuses": 0
+  },
+  "targets": [
+    {
+      "text": "Toggle navigation",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "text": "New reservation",
+      "width": 139.890625,
+      "height": 38.5
+    },
+    {
+      "text": "101",
+      "width": 71.75,
+      "height": 31.5
+    },
+    {
+      "text": "102",
+      "width": 71.765625,
+      "height": 31.5
+    },
+    {
+      "text": "103",
+      "width": 71.75,
+      "height": 31.5
+    }
+  ],
+  "cursors": {
+    "property": "default"
+  },
+  "housekeeping": {
+    "selectHeight": 34,
+    "buttonHeight": 34.5
+  },
+  "copy": true,
+  "download": 200,
+  "checkbox": {
+    "cursor": "default",
+    "width": 13,
+    "height": 13
+  },
+  "print": true,
+  "errors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://127.0.0.1:8000/favicon.ico"
+    }
+  ]
+}

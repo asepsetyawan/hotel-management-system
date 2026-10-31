@@ -1,0 +1,30 @@
+<?php
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{AuthController,HotelController,PublicController};
+Route::get('/',[PublicController::class,'marketplace'])->name('marketplace');
+Route::view('/product','public.product')->name('product');
+Route::get('/hotels/{slug}',[PublicController::class,'hotel'])->name('hotel');
+Route::post('/hotels/{slug}/book',[PublicController::class,'book'])->middleware('throttle:10,1');
+Route::get('/booking/{token}',[PublicController::class,'confirmation'])->whereUuid('token')->middleware('throttle:30,1');
+Route::get('/availability/{token}.ics',[PublicController::class,'calendar'])->where('token','[A-Za-z0-9]{48}')->middleware('throttle:60,1');
+Route::get('/login',[AuthController::class,'form'])->name('login');
+Route::post('/login',[AuthController::class,'login'])->middleware('throttle:5,1');
+Route::post('/logout',[AuthController::class,'logout'])->middleware('auth');
+Route::middleware(['auth','staff'])->prefix('app')->group(function(){
+ Route::get('/',[HotelController::class,'page'])->name('dashboard');
+ Route::post('/property',[HotelController::class,'select']);
+ Route::post('/reservations',[HotelController::class,'reservation']);
+ Route::post('/reservations/{id}/status',[HotelController::class,'status']);
+ Route::post('/reservations/{id}/payments',[HotelController::class,'payment']);
+ Route::get('/reservations/{id}/invoice',[HotelController::class,'invoice']);
+ Route::post('/rooms',[HotelController::class,'room']);
+ Route::post('/rooms/{id}/service',[HotelController::class,'roomService']);
+ Route::post('/rooms/{id}/housekeeping',[HotelController::class,'housekeeping']);
+ Route::post('/room-types',[HotelController::class,'type']);
+ Route::post('/room-types/{id}/rate',[HotelController::class,'rate']);
+ Route::post('/properties',[HotelController::class,'createProperty']);
+ Route::post('/staff',[HotelController::class,'createStaff']);
+ Route::post('/settings',[HotelController::class,'settings']);
+ Route::get('/export/reservations',[HotelController::class,'export']);
+ Route::get('/{page}',[HotelController::class,'page']);
+});

@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><title>@yield('title','Independent hotels & direct booking · Stay OS')</title><meta name="description" content="@yield('meta','Discover independent hotels and book your next stay directly.')"><link rel="icon" href="/assets/mark.svg" type="image/svg+xml">@include('layouts.assets')</head>
+<body class="public-body"><a class="skip" href="#main">Skip to content</a>
+<header class="public-nav"><a href="{{ isset($property)?'/hotels/'.$property->slug:'/product' }}" class="public-brand">@if(isset($property)){{ $property->name }}@else<x-icon name="building"/>Stay<span>OS</span>@endif</a><button class="icon-button public-menu" data-public-menu aria-label="Toggle website navigation" aria-expanded="false" aria-controls="public-navigation"><x-icon name="menu"/></button>
+<nav id="public-navigation" class="public-nav-links" aria-label="Website navigation">
+@if(request()->is('product'))<a href="/product">Home</a><a href="#features">Features</a><a href="#services">Services</a><a href="#pricing">Pricing concept</a><a class="button" href="/">Find a hotel</a><a class="button primary" href="/login">Open workspace</a>
+@else<a href="/">Explore stays</a>@if(isset($property))<a href="#rooms">Our rooms</a><a href="mailto:{{ $property->email }}">Contact property</a><a class="button primary" href="#rooms">Find a room</a>@else<a href="/product">For hoteliers</a><a class="button" href="/login">Staff workspace</a>@endif @endif
+</nav></header>
+<main class="public-main" id="main">@if($errors->any())<div class="notice error public-error" role="alert"><strong>Please check your booking details.</strong><ul>@foreach($errors->all() as $error)<li>{{ $error }}</li>@endforeach</ul></div>@endif @yield('content')</main>
+<footer class="public-footer"><div><a href="/product" class="public-brand">Stay<span>OS</span></a><p>Hotel operations and direct booking.</p></div><span>{{ isset($property)?$property->address:'Independent hospitality, brought together.' }}</span><span>© {{ date('Y') }} · <a href="/login">Staff workspace</a></span></footer>
+</body></html>

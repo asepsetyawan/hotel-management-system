@@ -1,0 +1,77 @@
+[
+  {
+    "path": "/app",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/reservations",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/guests",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/rooms",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/housekeeping",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/calendar",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/billing",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/reports",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/channels",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/website",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/mobile",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/app/settings",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/product",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/",
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "path": "/hotels/the-aluna-ubud",
+    "scroll": 305,
+    "width": 320
+  }
+]
