@@ -413,11 +413,10 @@ dialog::backdrop { background:rgb(15 23 38 / 48%) }
 .hero-actions .button { min-height:42px }
 .integration-note { display:flex; align-items:center; justify-content:center; gap:14px; flex-wrap:wrap; font-size:11px; color:var(--text-secondary); margin:22px 0 56px }
 .integration-note strong { color:var(--text); font-size:12px; font-weight:500 }
-.product-preview { max-width:1064px; margin:0 auto; padding-top:32px; position:relative; isolation:isolate }
+.product-preview { max-width:1064px; margin:0 auto; padding-top:32px; position:relative; isolation:isolate; mask-image:linear-gradient(#000 60%,transparent 94%) }
 .product-preview:before,.product-preview:after { content:''; position:absolute; top:10px; left:2%; right:2%; height:100%; background:var(--surface); border:1px solid var(--border); border-radius:14px; box-shadow:0 4px 35px rgb(0 0 0 / 5%); z-index:-1 }
 .product-preview:after { top:24px; left:1%; right:1% }
 .product-preview img { display:block; width:100%; height:auto; border:1px solid var(--border); border-radius:14px; box-shadow:0 12px 60px rgb(0 0 0 / 7%); aspect-ratio:1440/1024; object-fit:cover; object-position:top }
-.preview-fade { position:absolute; inset:60% -4% -3%; background:linear-gradient(transparent,var(--surface) 80%); pointer-events:none }
 .preview-caption { position:relative; margin:-34px 0 0; padding-bottom:16px; color:var(--text-secondary); font-size:11px }
 .product-proof { max-width:1080px; margin:32px auto 100px; display:grid; grid-template-columns:repeat(4,1fr); gap:24px; padding:0 24px; text-align:center }
 .product-proof strong { display:block; font-size:25px; margin-bottom:8px; font-weight:600; letter-spacing:-.04em }

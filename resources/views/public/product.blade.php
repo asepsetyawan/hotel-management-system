@@ -8,7 +8,7 @@
  <p>Manage reservations, track rooms, and coordinate your day, all from one hotel workspace.</p>
  <div class="hero-actions"><a class="button primary" href="/login">Open your workspace</a><a class="button" href="#workspace-preview">See the dashboard</a></div>
  <div class="integration-note"><span>Built with:</span><strong>Laravel</strong><strong>PHP</strong><span>Export to:</span><strong>iCalendar</strong><strong>CSV</strong></div>
- <div class="product-preview" id="workspace-preview"><img src="/assets/dashboard-preview.png" width="1440" height="1024" fetchpriority="high" alt="Stay OS dashboard with room availability, arrivals, housekeeping readiness, and today's booking list, shown with demonstration data"><div class="preview-fade"></div></div>
+ <div class="product-preview" id="workspace-preview"><img src="/assets/dashboard-preview.png" width="1440" height="1024" fetchpriority="high" alt="Stay OS dashboard with room availability, arrivals, housekeeping readiness, and today's booking list, shown with demonstration data"></div>
  <p class="preview-caption">Actual workspace preview · Fictional demonstration property and reservations</p>
 </section>
 <div class="product-proof"><div><strong>One inventory</strong><small>Shared across booking channels</small></div><div><strong>7 days</strong><small>Room availability at a glance</small></div><div><strong>IDR</strong><small>Tax-inclusive reservation quotes</small></div><div><strong>iCalendar</strong><small>One-way availability exports</small></div></div>
